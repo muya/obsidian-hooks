@@ -1,0 +1,10 @@
+- id: reset-obsidian-theme
+  name: reset-obsidian-theme
+  entry: reset-obsidian-theme.sh
+  language: script
+  always_run: false
+  fail_fast: false
+  verbose: false
+  require_serial: true
+  description: 'Always set the Obsidian theme to the provided value.'
+  args: []
